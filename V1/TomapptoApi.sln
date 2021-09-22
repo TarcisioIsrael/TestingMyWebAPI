@@ -7,11 +7,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FF7BE59E-F59
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{6DB4955D-6D0A-4C2C-90DB-9FBC6CF86A00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tomappto.Api", "src\Tomappto.Api\Tomappto.Api.csproj", "{26D363F2-E29E-4D3A-A85F-0BF6D0A893FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tomappto.Api", "src\Tomappto.Api\Tomappto.Api.csproj", "{26D363F2-E29E-4D3A-A85F-0BF6D0A893FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tomappto.Domain", "src\Tomappto.Domain\Tomappto.Domain.csproj", "{A08976DA-9E06-46F4-92D2-79DC3CD1B344}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tomappto.Domain", "src\Tomappto.Domain\Tomappto.Domain.csproj", "{A08976DA-9E06-46F4-92D2-79DC3CD1B344}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tomappto.Infrastructure", "src\Tomappto.Infrastructure\Tomappto.Infrastructure.csproj", "{536E5B52-C5B3-4EDA-9FEF-4DCC5940B76A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tomappto.Infrastructure", "src\Tomappto.Infrastructure\Tomappto.Infrastructure.csproj", "{536E5B52-C5B3-4EDA-9FEF-4DCC5940B76A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tomappto.Api.Test", "test\Tomappto.Api.Test\Tomappto.Api.Test.csproj", "{2E01344E-FC74-4E46-9A59-FCFB1FD30A3A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{536E5B52-C5B3-4EDA-9FEF-4DCC5940B76A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{536E5B52-C5B3-4EDA-9FEF-4DCC5940B76A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{536E5B52-C5B3-4EDA-9FEF-4DCC5940B76A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E01344E-FC74-4E46-9A59-FCFB1FD30A3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E01344E-FC74-4E46-9A59-FCFB1FD30A3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E01344E-FC74-4E46-9A59-FCFB1FD30A3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E01344E-FC74-4E46-9A59-FCFB1FD30A3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{26D363F2-E29E-4D3A-A85F-0BF6D0A893FF} = {FF7BE59E-F591-4F2A-9979-67299E1A6CE6}
 		{A08976DA-9E06-46F4-92D2-79DC3CD1B344} = {FF7BE59E-F591-4F2A-9979-67299E1A6CE6}
 		{536E5B52-C5B3-4EDA-9FEF-4DCC5940B76A} = {FF7BE59E-F591-4F2A-9979-67299E1A6CE6}
+		{2E01344E-FC74-4E46-9A59-FCFB1FD30A3A} = {6DB4955D-6D0A-4C2C-90DB-9FBC6CF86A00}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DFDB647A-DAB6-4B9E-BABC-7AD051AAE71D}
